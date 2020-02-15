@@ -62,3 +62,15 @@ body {
     color: wheat;
     text-align: center;
 }
+#footer {
+    margin-top: 10rem;
+    text-align: center;
+    color: rgb(245, 213, 153);
+    font-size: medium;
+    font-style: italic;
+    font-family: cursive;
+}
+#link {
+    color: rgb(202, 221, 245);
+    text-decoration: none;
+}
