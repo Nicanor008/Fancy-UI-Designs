@@ -1,0 +1,29 @@
+/* responsiveness - mobile/tablet */
+@media only screen and (max-width: 967px) {
+    #calculatorWrapper {
+        width: 50%;
+        margin: 8% 0 0 30%;
+    }
+}
+@media only screen and (max-width: 667px) {
+    #calculatorWrapper {
+        width: 70%;
+        margin: 6% 0 0 15%;
+    }
+}
+@media only screen and (max-width: 467px) {
+    #calculatorWrapper {
+        width: 90%;
+        margin: 2% 0 0 5%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .calculatorButton {
+        padding: 0.589rem 1.2rem;
+        margin: 0.049rem;
+    }
+    .resultOutput {
+        width: 10;
+    }
+}
