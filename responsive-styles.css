@@ -13,15 +13,19 @@
 }
 @media only screen and (max-width: 467px) {
     #calculatorWrapper {
-        width: 90%;
-        margin: 2% 0 0 5%;
+        width: 80%;
+        margin: 2% 0 0 10%;
+    }
+    .calculatorButton {
+        padding: 0.589rem 1.3rem;
+        margin: 0.299rem;
     }
 }
 
 @media only screen and (max-width: 320px) {
     .calculatorButton {
         padding: 0.589rem 1.2rem;
-        margin: 0.049rem;
+        margin: 0.099rem;
     }
     .resultOutput {
         width: 10;
