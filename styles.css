@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700);
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+body {
+    margin: auto;
+    font: 100 100%/1 "Roboto", sans-serif;
+}
+.bodyWrapper {
+    margin: 2rem 5rem;
+}
+.headerWrapper {
+    width: 100%;
+    height: 30rem;
+}
+.backgroundImageWrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+.headerTitle {
+    margin-top: 10rem;
+    font-weight: bolder;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
+}
+.backgroundImage {
+    background: url(./images/codes.jpg) 100%/100%; 
+    border-radius: 3px;
+    height: 20rem;
+    width: 35rem;
+}
+.descriptionSection {
+    width: 28rem;
+    border-radius: 4px;
+    padding: 1.5rem 2rem 0 5rem;
+    margin-top: 10px;
+    margin-left: 2rem;
+    background-color: rgba(130, 161, 247, 0.4);
+    
+}
+.descriptionSection > p {
+    color: rgb(43, 43, 43);
+    font-weight: bolder;
+    font-size: 1.16em;
+}
+.projectsWrapper {
+    margin-top: 1rem;
+    padding: 0 9rem;
+}
+.projectBody {
+    display: flex;
+    padding: 0.6rem 0.6rem 4rem;
+}
+.projectDescription {
+    padding: 0 1.96rem;
+}
+.projectDescription > h2 {
+    font-family: 'Comic Cue', cursive;
+    font-weight: bolder;
+}
+.projectDescription > h2 > a {
+    text-decoration: none;
+}
+.projectBody > a > img {
+    border-radius: 3px;
+}
+#imgLeft {
+    display: none;
+}
+@media screen and (max-width: 871px) {
+    .bodyWrapper {
+        margin: 1.2rem 1.9rem;
+    }
+    .headerWrapper {
+        height: 33rem;
+    }
+    .headerTitle {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+    .backgroundImageWrapper {
+        display: inline;
+    }
+    .backgroundImage {
+        height: 22rem;
+        width: 38rem;
+    }
+    .descriptionSection {
+        width: 32rem;
+        padding: 2.5rem 0.2rem 0.7rem 2.5rem;
+        margin-top: 15px;
+        margin-left: 6rem;
+        background-color: rgba(130, 161, 247, 0.4);
+    }
+    .projectsWrapper {
+        margin-top: 2rem;
+        padding: 0 0.2rem;
+    }
+    .projectBody {
+        display: inline;
+        padding: 0.6rem 0.6rem 4rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .bodyWrapper {
+        margin: 0.2rem 0.9rem;
+    }
+    .headerWrapper {
+        height: 23rem;
+    }
+    .headerTitle {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+    }
+    .backgroundImageWrapper {
+        display: inline;
+    }
+    .backgroundImage {
+        height: 11rem;
+        width: 21rem;
+    }
+    .descriptionSection {
+        width: 18rem;
+        padding: 0.5rem 0.2rem 0.7rem 0.5rem;
+        margin-top: 10px;
+        margin-left: 0;
+        background-color: rgba(130, 161, 247, 0.4);
+    }
+    .projectsWrapper {
+        margin-top: 0.098rem;
+        padding: 0 0.2rem;
+    }
+    .projectBody {
+        display: inline;
+        padding: 1.67rem 0.6rem 4rem;
+    }
+    .projectBody > a > img {
+        margin-left: 1.4rem;
+    }
+    #imgLeft {
+        display: inline;
+    }
+    #imgRight {
+        display: none;
+    }
+}
